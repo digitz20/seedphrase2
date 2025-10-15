@@ -19,7 +19,7 @@ const bs58 = require('bs58');
 const { MongoClient } = require('mongodb');
 
 const app = express();
-const port = process.env.PORT || 3004;
+const port = process.env.PORT || 4663;
 
 const bip32 = BIP32Factory(ecc);
 const ECPair = ECPairFactory(ecc);
